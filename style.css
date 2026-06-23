@@ -135,6 +135,14 @@ h1 {
     margin-bottom: 30px;
     font-style: italic;
 }
+.lyrics-box2 {
+    height:400px;          /* aceeași dimensiune mereu */
+    overflow-y:auto;       /* apare scroll când e nevoie */
+    white-space:pre-wrap;  /* păstrează versurile pe rânduri */
+    overflow-wrap:break-word;
+    margin:0;
+    font-family:inherit;
+}
 
 .crypto-section {
     margin-top: 30px;
